@@ -43,7 +43,7 @@ function App() {
       }
     }
   }
-
+  console.log(showCard);
   return (
     <div className="App">
       <h1>Random Cards Game</h1>
