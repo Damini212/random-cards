@@ -10,13 +10,25 @@
   text-align: center;
   border-radius: 5px;
   background-color: rgb(237, 228, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card-unwrapper {
-  border: 1px rgb(133, 10, 10) solid;
-  height: 60px;
-  width: 60px;
-  text-align: center;
+.restart-btn {
+  height: 30px;
+  background-color: black;
+  color: white;
   border-radius: 5px;
-  background-color: rgb(237, 228, 228);
+}
+
+.text {
+  width: 300px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
